@@ -9,8 +9,8 @@ while index < len(items):
         mutable.append(item)
     else:
         immutable.append(item)
-print(" list is a mutable datatype items present in the string",mutable)
-print(" list is a immutable datatype items present in the string",immutable)
+print(f" {mutable}is a mutable datatype items present in the string")
+print(f" {immutable} list is a immutable datatype items present in the string")
 
 
    
